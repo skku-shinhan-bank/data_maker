@@ -8,7 +8,7 @@ pip install git+https://github.com/skku-shinhan-bank/data_maker.git
 ## Usage
 
 ```python
-from charm_shin_han.data_maker import DataMaker
+from data_maker import DataMaker
 
 train_shinhan_data, train_shinhan_label, test_shinhan_data, test_shinhan_label = DataMaker.make_shinhan_issue_class_data(
     "/content/drive/MyDrive/신한은행/training-data/Labeled_Data_2/shinhan_app_review_4.xlsx",
